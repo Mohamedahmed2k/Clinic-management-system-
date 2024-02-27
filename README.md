@@ -1,26 +1,39 @@
 # Clinic Management System
 
-This is a C program for a Clinic Management System designed to efficiently manage patient records, appointments, and reservations. The system offers both admin and user modes to cater to different users' needs. Below, we explain the key features of the program and its usage instructions.
+## Overview
+The Clinic Management System is a C program designed to efficiently manage patient records, appointments, and reservations in a clinic setting. The system provides both admin and user modes to cater to the needs of different users, ensuring secure access and streamlined functionality.
 
+## Features
 
-# Features
+### Admin Mode
 
-# Admin Mode
-Password Protection: In admin mode, the system asks for a password. The default password is '1234'. Users have three attempts to enter the correct password; otherwise, the system will close.
+1. *Password Protection*: The admin mode requires a password for access, enhancing security. The default password is '1234', with three attempts allowed before system closure.
 
-Add New Patient Record: Admins can add new patient records by providing basic information such as name, age, gender, and a unique ID. If the entered ID already exists, the system will reject the entry.
+2. *Add New Patient Record*: Admins can easily add new patient records by providing essential details such as name, age, gender, and a unique ID. Duplicate ID entries are rejected by the system.
 
-Edit Patient Record: Admins can edit patient information by entering the patient's ID. If the ID exists, the system allows the user to update the patient's information; otherwise, an incorrect ID message is displayed.
+3. *Edit Patient Record*: Admins have the ability to edit patient information by entering the patient's ID. The system allows for seamless updates to patient details, ensuring data accuracy.
 
-Reserve a Slot with the Doctor: There are five available slots: 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm, and 4:30pm to 5pm. Admins can reserve a slot by entering the patient's ID and selecting a desired slot. The reserved slot will not be available for the next patient's reservation.
+4. *Reserve a Slot with the Doctor*: Admins can reserve appointment slots with the doctor for patients. Available slots are provided, and once reserved, they become unavailable for subsequent bookings to avoid scheduling conflicts.
 
-Cancel Reservation: Admins can cancel a reservation by entering the patient's ID. The canceled reservation will become available for future bookings.
+5. *Cancel Reservation*: Admins can cancel existing reservations by entering the patient's ID, making the reserved slot available for future bookings.
 
-# User Mode
-View Patient Record: In user mode, there is no password requirement. Users can view patient records by entering the patient's ID. The system displays basic patient information.
+### User Mode
 
-View Today’s Reservations: Users can view today's reservations, including the patient ID attached to each reservation slot.
+1. *View Patient Record*: User mode allows users to view patient records by entering the patient's ID. Basic patient information is displayed, providing easy access to relevant data.
 
-# Video
-[![Click to Watch the Video](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXAI96tWfg88FTR8omwfJzQh687w9jzgAvhQ&usqp=CAU)](https://www.youtube.com/watch?v=tGc1CG4IDHg)
+2. *View Today’s Reservations*: Users can conveniently view today's reservations, including patient IDs attached to each reserved slot, facilitating efficient appointment management.
 
+## Usage Instructions
+1. *Admin Mode*: Upon launch, enter the password ('1234' by default) to access admin functionalities. Follow on-screen prompts to add, edit, reserve, or cancel patient reservations.
+
+2. *User Mode*: No password is required for user mode. Enter the patient's ID to view their record or check today's reservations.
+
+## Video Demo
+[![Click to Watch the Video](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/watch?v=tGc1CG4IDHg)
+
+## License
+This project is licensed under the [MIT License](LICENSE), allowing for free distribution and modification of the Clinic Management System while providing attribution to the original authors.
+
+---
+
+The Clinic Management System provides a comprehensive solution for managing clinic operations efficiently. For any inquiries or support, please contact the project maintainers.
